@@ -8,4 +8,4 @@ Before using this repository, please keep in mind the following caveats. These v
 2. Index and intra-series cross-references
 3. Tagging of tables, document openers, and other stylistic features
 
-Once our staff begin review on a volume, it is deleted from this repository and moved into a branch of the main [FRUS repository](https://github.com/HistoryAtState/frus).
+Once our staff begin review on a volume, it is deleted from this repository and moved into a branch of the main [FRUS repository](https://github.com/HistoryAtState/frus) for review in preparation for a quarterly release.
