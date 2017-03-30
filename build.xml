@@ -1,9 +1,9 @@
 <project basedir="." default="noop" name="frus-not-yet-reviewed">
-	<property name="build" value="${basedir}/build" />
-	<target name="prepare">
-		<mkdir dir="${build}"/>
-	</target>
-	<!-- empty targets, since this repository is not deployed to the hsg database -->
-	<target name="clean" depends="prepare"/>
-	<target name="noop" depends="prepare"/>
+    <property name="build" value="${basedir}/build"/>
+    <target name="prepare">
+        <mkdir dir="${build}"/>
+    </target>
+    <!-- empty targets, since this repository is not deployed to the hsg database -->
+    <target name="clean" depends="prepare"/>
+    <target name="noop" depends="prepare"/>
 </project>
