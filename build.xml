@@ -6,4 +6,7 @@
     <!-- empty targets, since this repository is not deployed to the hsg database -->
     <target name="clean" depends="prepare"/>
     <target name="noop" depends="prepare"/>
+    <!-- These tasks are dummy tasks needed for hsg-project/build.xml  -->
+    <target name="xar-dev"/>
+    <target name="xar-prod"/>
 </project>
