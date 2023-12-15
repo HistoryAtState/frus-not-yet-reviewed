@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <app>
+        <name>frus-not-yet-reviewed</name>
+        <url>http://history.state.gov/ns/data/frus-not-yet-reviewed</url>
+        <title>WIP FRUS (data)</title>
+        <!-- VERSION SET AUTOMATICALLY DO NOT CHANGE -->
+        <!-- <version>0.4.0</version> -->
+    </app>
+</root>
