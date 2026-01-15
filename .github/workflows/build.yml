@@ -24,7 +24,7 @@ jobs:
 
     steps:
       # Checkout code
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Install Test Dependencies
         run: |
           sudo apt-get update
@@ -58,7 +58,7 @@ jobs:
 
       # Lint commit messages
       - name: lint commit message
-        uses: wagoid/commitlint-github-action@v5
+        uses: wagoid/commitlint-github-action@v6
 
   release:
     name: Release
@@ -67,9 +67,9 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
-        uses: actions/checkout@v5 
+        uses: actions/checkout@v6 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           cache: npm  
           node-version: lts/*
