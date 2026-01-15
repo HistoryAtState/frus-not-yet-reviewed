@@ -6,3 +6,21 @@ updates:
     interval: "weekly"
   commit-message:
     prefix: "chore(gha):"
+  groups:
+    github-actions:
+      patterns:
+        - "*"
+- package-ecosystem: "npm"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+  commit-message:
+    prefix: "chore(deps):"
+  groups:
+    commitlint-dependencies:
+      patterns:
+        - "@commitlint/*"
+    semantic-release-dependencies:
+      patterns:
+        - "@semantic-release/*"
+        - "semantic-release"
