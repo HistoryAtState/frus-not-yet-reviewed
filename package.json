@@ -11,6 +11,6 @@
     "@commitlint/config-angular": "^21.2.0",
     "@semantic-release/exec": "^7.1.0",
     "@semantic-release/git": "^11.0.1",
-    "semantic-release": "^25.0.8"
+    "semantic-release": "^25.0.9"
   }
 }
